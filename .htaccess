@@ -1,0 +1,4 @@
+AddType text/plain .py
+ErrorDocument 403 http://benoit.viguier.nl
+ErrorDocument 404 http://benoit.viguier.nl
+
