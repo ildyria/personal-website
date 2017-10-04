@@ -243,40 +243,40 @@ class State():
                 t += 1
 
             elif typ == '#':
-                print("s" + str(self.get(i)))
+                # print("s" + str(self.get(i)))
                 return [Node('\n', '', [])], t
 
             elif typ == '\n':
 
                 typ = self.get(t+1).typ
                 if typ == '#':
-                    print("s" + str(self.get(i)))
+                    # print("s" + str(self.get(i)))
                     return [Node('\n', '', [])], t
 
                 if typ == '\n':
-                    print("d" + str(self.get(i)))
+                    # print("d" + str(self.get(i)))
                     return [Node('br', '', [])], t + 1
 
-                print("s"+ str(self.get(t)))
+                # print("s"+ str(self.get(t)))
                 return [Node('\n', '', [])], t + 1
 
             else:
-                print("s" + str(self.get(i)))
+                # print("s" + str(self.get(i)))
                 return [Node('\n', '', [])], t
                 # return self.tokenizer(t, istop, True)
         return [], istop
 
     def backtic(self, i, istop):
-        print('`')
+        # print('`')
         n = self.find_next(i+1, istop, '`')
         if n > 0:
             return [Node('code', '', self.tokenizer(i+1, n))], n + 1
         return [Node('code', '', self.tokenizer(i+1, istop))], istop
 
     def bang(self, i, istop):
-        print('!')
+        # print('!')
         if self.get(i+1).typ == '[':
-            print('img')
+            # print('img')
             # find the address !!!
             n = self.find_next(i+2, istop, ']')
             if n > 0:
@@ -296,11 +296,11 @@ class State():
                     m = self.find_next(n+2, istop, ')')
                     #idx of the link is here : n+2 -> m-1
                     if m > 0:
-                        print("found link")
+                        # print("found link")
                         linkval = self.interpret(self.tokenizer(n+2, m))
-                        print()
+                        # print()
                         self.links[linkval] = linkval
-                        print(linkval)
+                        # print(linkval)
                         # print(self[self.interpret(self.tokenizer(n+2,m))])
                         ab, ae, _ = self.get_attr_dist(m+1, istop)
                         #addr of the link is here : n+2 -> m-1
@@ -315,7 +315,7 @@ class State():
             return [Node('word', '!')], i + 1
 
     def link(self, i, istop):
-        print('[')
+        # print('[')
         n = self.find_next(i+1, istop, ']')
         if 0 < n:
 
@@ -334,8 +334,8 @@ class State():
                 m = self.find_next(n+2, istop, ')')
                 #idx of the link is here : n+2 -> m-1
                 if m > 0:
-                    print("found link")
-                    print(self.interpret(self.tokenizer(n+2, m)))
+                    # print("found link")
+                    # print(self.interpret(self.tokenizer(n+2, m)))
                     self.links[self.interpret(self.tokenizer(n+2, m))] = self.interpret(self.tokenizer(n+2, m))
 
                     ab, ae, _ = self.get_attr_dist(m+1, istop)
@@ -346,12 +346,12 @@ class State():
                     return [Node('word', 'MISSING )')], n + 1
 
             elif self.get(n+1).typ == ':' and self.get(n+2).typ == " ":
-                print("found link")
+                # print("found link")
                 idx = self.interpret(self.tokenizer(i+1, n))
                 m = self.find_next(n+3, istop, '\n')
                 #idx of the link is here : n+2 -> m-1
                 if m > 0:
-                    print(str(self.get(m)) + "found")
+                    # print(str(self.get(m)) + "found")
 
                     self.links[idx] = self.interpret(self.tokenizer(n+3, m))
                     return [], m + 1
@@ -365,11 +365,11 @@ class State():
             return [Node('word', '[')] + self.tokenizer(i+1, istop)
 
     def stars(self, i, istop):
-        print('*')
+        # print('*')
         if self.get(i+1).typ == '*':
-            print('*')
+            # print('*')
             if self.get(i+2).typ == '*':
-                print('*')
+                # print('*')
                 n = self.find_next_duo(i+3, istop)
                 if n > 0:
                     m = self.find_next(n+2, istop, '*')
@@ -416,19 +416,19 @@ class State():
         return [Node('word', 'MISSING ||')], i + 2
 
     def sharps(self, i, istop, H):
-        print('SHARP : ' + str(H))
+        # print('SHARP : ' + str(H))
         node_type = 'H'+str(H)
         n, m, p = self.get_attr_dist(i, istop)
         if 0 < n and 0 < m and 0 < p:
-            print('found endline and attr')
+            # print('found endline and attr')
             return [Node(node_type, '', self.tokenizer(i, n-1), self.tokenizer(n+1, m))], p + 1
         if 0 < p:
-            print('found endline')
+            # print('found endline')
             return [Node(node_type, '', self.tokenizer(i, p))], p + 1
         if 0 < n and 0 < m:
-            print('found attr without endline')
+            # print('found attr without endline')
             return [Node(node_type, '', self.tokenizer(i, n), self.tokenizer(n+1, m))], m + 1
-        print('not found endline/attr')
+        # print('not found endline/attr')
         return [Node(node_type, '', self.tokenizer(i, istop))], istop
 
     def backslashize(self):
