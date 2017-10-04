@@ -1,6 +1,8 @@
+#!/usr/bin/env python3
+
 # pylint: disable=missing-docstring
-# pylint: disable=c0122
 # pylint: disable=c0103
+# pylint: disable=c0122
 # pylint: disable=c0301
 # pylint: disable=w0102
 # pylint: disable=r0903
