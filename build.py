@@ -13,11 +13,6 @@ import os
 import parser
 import datetime
 
-def md_to_html(text):
-    s = parser.State(text)
-    s.tokenize()
-    return s.interpreter()
-
 def drop_md(text):
     if text[-3:] == ".md":
         return text[:-3]
@@ -41,10 +36,26 @@ def head():
     z += '	  <div class=\'mp\' id=\'man\'>\n'
     return z
 
+def man_head():
+    z = ''
+    z += '<ol class=\'man-decor man-head man head\'>\n'
+    z += '	<li class=\'tl\'>Benoit Viguier</li>\n'
+    z += '	<li class=\'tc\'></li>\n'
+    z += '	<li class=\'tr\'>Benoit Viguier</li>\n'
+    z += '</ol>\n'
+    return z
+
+def man_menu(state):
+    z = ''
+    z += '<div class=\'man-navigation\' style=\'display:none\'>\n'
+    z += state.toc()
+    z += '</div>\n'
+
+    return z
+
 def foot():
     now = datetime.datetime.now()
     z = ''
-    z += '     		<h2 id="COPYRIGHT">COPYRIGHT</h2>\n'
     z += '    			<p>Copyright (C) ' + str(now.year) + ' Benoit Viguier.</p>\n'
     z += '    			<ol class=\'man-decor man-foot man foot\'>\n'
     z += '    				<li class=\'tl\'></li>\n'
@@ -74,9 +85,14 @@ def main():
             file_in = load('pages/' + pagesfile)
             file_out = pagesfile[0:-3] + '.html'
 
+            content = parser.State(file_in)
+            content.tokenize()
+
             output = ''
             output += head()
-            output += md_to_html(file_in)
+            output += man_menu(content)
+            output += man_head()
+            output += content.interpreter()
             output += foot()
 
             save(file_out, output)

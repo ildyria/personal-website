@@ -127,6 +127,27 @@ class Node():
             return '<code>' + output + '</code>'
         return self.typ
 
+    def find_id(self, dic={}):
+        id_anchor = ''
+        print(self.attr)
+        is_id = False
+        for attr in self.attr:
+            if attr.typ == "word" and attr.val[:4] == 'id="':
+                if attr.val[-1:] == '"':
+                    return attr.val[4:][:-1]
+                else:
+                    id_anchor += attr.val[4:]
+                    is_id = True
+            elif is_id and attr.typ == "word" and attr.val[-1:] == '"':
+                id_anchor += attr.val[:-1]
+                return id_anchor
+            elif is_id:
+                id_anchor += attr.interpret(dic)
+        return id_anchor
+
+
+
+
 def update(fun, output_list, i, istop, start_line):
     l, i = fun(i, istop)
     output_list += l
@@ -527,6 +548,18 @@ class State():
     def tokenize(self):
         self.preprocess()
         self.listtoken = self.tokenizer(0, len(self.lexed), True)
+
+    def toc(self):
+
+        output = ''
+        for token in self.listtoken:
+            if token.typ[:1] == 'H':
+                val = ''
+                for child in token.children:
+                    val += child.interpret(self.links)
+                output += '<a href="#' + token.find_id(self.links) + '">' + val + '</a>\n'
+
+        return output
 
 ###############################################################################
 #                           Define the Interpreter

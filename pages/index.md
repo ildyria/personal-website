@@ -1,21 +1,3 @@
-<div class='man-navigation' style='display:none'>
-[NAME](#NAME)
-[SYNOPSIS](#SYNOPSIS)
-[DESCRIPTION](#DESCRIPTION)
-[OPTIONS](#OPTIONS)
-[SEE ALSO](#SEE-ALSO)
-[EXAMPLES](#EXAMPLES)
-<!-- [BUGS](#BUGS) -->
-[CHANGELOG](#CHANGELOG)
-[COPYRIGHT](#COPYRIGHT)
-</div>
-
-<ol class='man-decor man-head man head'>
-	<li class='tl'>Benoit Viguier</li>
-	<li class='tc'></li>
-	<li class='tr'>Benoit Viguier</li>
-</ol>
-
 ## NAME {id="NAME"}
 
 <p class="man-name">
@@ -130,6 +112,11 @@ How formal Methods and Fuzzing can improve the trust in cryptographic softare. >
 Formal methods in differential and linear trail search : <a href="files/report-insa.pdf">[report]</a> <a href="files/Slides-Soutenance-INSA.pdf">[slides]</a>  
 <span style="color:#999;">With respect to the original version, typos have been corrected and some parts from the Apendix have been placed after the Preface.</span>  
 Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduction%20to%20Logic.pdf">[slides]</a> >>
+
+## COPYRIGHT {id="COPYRIGHT"}
+
+<!-- copyright and date are added automatically -->
+
 
 [1]: http://www.ru.nl/ds/
 [2]: http://www.mbsd.cs.ru.nl
