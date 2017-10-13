@@ -112,7 +112,7 @@ Configuration of my usual work environment.
 
 ## CHANGELOG {id="CHANGELOG"}
 
-<< `2017 - Oct. - Computer-Aided Security Proofs School - Aarhus` ||
+<< `2017 - Oct. - School on Computer-Aided Security Proofs - Aarhus` ||
 [Fall School][29] organised by Bas Spitters about Computer-aided security proofs using [Fstar][30] and [EasyCrypt][31]. >>
 
 <<`2017 - Jul. -  Deep Spec Summer School - Philadelphia` ||
