@@ -112,6 +112,9 @@ Configuration of my usual work environment.
 
 ## CHANGELOG {id="CHANGELOG"}
 
+<< `2017 - Oct. - Computer-Aided Security Proofs School - Aarhus` ||
+[Fall School][29] organised by Bas Spitters about Computer-aided security proofs using [Fstar][30] and [EasyCrypt][31]. >>
+
 <<`2017 - Jul. -  Deep Spec Summer School - Philadelphia` ||
 [Summer School][26] organised by UPenn, Princeton, Yale &amp; MIT about Formal Methods and their applications to Compilers and Code verification. >>
 
@@ -156,3 +159,6 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [26]: https://deepspec.org/event/dsss17/index.html
 [27]: https://summerschool-croatia.cs.ru.nl/2017/
 [28]: https://github.com/HACS-workshop/links
+[29]: http://cs.au.dk/da/forskningsomraader/logic-and-semantics/courses/
+[30]: https://www.fstar-lang.org/
+[31]: https://www.easycrypt.info

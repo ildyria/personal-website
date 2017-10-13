@@ -11,6 +11,7 @@
 
 import os
 import parser
+import datetime
 
 def md_to_html(text):
     s = parser.State(text)
@@ -41,12 +42,13 @@ def head():
     return z
 
 def foot():
+    now = datetime.datetime.now()
     z = ''
     z += '     		<h2 id="COPYRIGHT">COPYRIGHT</h2>\n'
-    z += '    			<p>Copyright (C) 2017 Benoit Viguier.</p>\n'
+    z += '    			<p>Copyright (C) ' + str(now.year) + ' Benoit Viguier.</p>\n'
     z += '    			<ol class=\'man-decor man-foot man foot\'>\n'
     z += '    				<li class=\'tl\'></li>\n'
-    z += '    				<li class=\'tc\'>July 2017</li>\n'
+    z += '    				<li class=\'tc\'> ' + now.strftime("%B") + ' ' + str(now.year) + '</li>\n'
     z += '    				<li class=\'tr\'>Benoit Viguier</li>\n'
     z += '    			</ol>\n'
     z += '    		</div>\n'
