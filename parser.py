@@ -129,7 +129,7 @@ class Node():
 
     def find_id(self, dic={}):
         id_anchor = ''
-        print(self.attr)
+        # print(self.attr)
         is_id = False
         for attr in self.attr:
             if attr.typ == "word" and attr.val[:4] == 'id="':
