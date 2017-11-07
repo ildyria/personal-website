@@ -38,7 +38,7 @@ student in [Research in Computer Science][8] (MRI).
 		Mercator 1, 03.17  
 		Toernooiveld 212  
 		6525 EC Nijmegen  
-		The Netherlands>>
+		The Netherlands >>
 </dl>
 
 ## SEE ALSO {id="SEE-ALSO"}
