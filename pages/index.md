@@ -140,7 +140,7 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [20]: https://ia.cr/2017/630
 [21]: files/BenoitTweetNaCl.pdf
 [22]: files/K12atPrague.pdf
-[23]: https://tools.ietf.org/html/draft-viguier-kangarootwelve-00
+[23]: https://tools.ietf.org/html/draft-viguier-kangarootwelve-01
 [24]: files/Presentation-Bookmarks-for-Cryptographers.pdf
 [25]: files/Presentation-16-12-9.pdf
 [26]: https://deepspec.org/event/dsss17/index.html
