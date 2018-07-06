@@ -43,6 +43,20 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2018-0622 -` [Linear Cryptanalysis of Morus][33] ||
+Presentation of the Linear Cryptanalysis part of our Paper [Cryptanalysis of Morus][34]. >>
+
+<<`PUB-2016-770 - ` [KangarooTwelve: fast hashing based on Keccak-p][36] ||
+Guido Bertoni and Joan Daemen and Michaël Peeters and Gilles Van Assche and Ronny Van Keer and Benoît Viguier  
+*Applied Cryptography and Network Security – ACNS 2018, Lecture Notes in Computer Science, Springer-Verlag*  
+<span style="color:#999;">KangarooTwelve, a fast and secure arbitrary output-length hash function aiming at a higher speed than the FIPS 202's SHA-3 and SHAKE functions.</span>  
+<a href="https://eprint.iacr.org/2016/770.pdf">[pdf]</a> <a href="https://keccak.team/kangarootwelve.html">[www]</a> >>
+
+<<`PUB-2018-464 -` [Cryptanalysis of MORUS][35] ||
+Tomer Ashur and Maria Eichlseder and Martin M. Lauridsen and Gaëtan Leurent and Brice Minaud and Yann Rotella and Yu Sasaki and Benoît Viguier
+<span style="color:#999;">As our main result, we present a linear correlation in the keystream of full MORUS, which can be used to distinguish its output from random and to recover some plaintext bits in the broadcast setting.</span>  
+<a href="https://eprint.iacr.org/2018/464.pdf">[pdf]</a> >>
+
 <<`TLK-2018-0319 -` [KangarooTwelve draft-viguier-kangarootwelve-01][32] ||
 Presentation of a [RFC draft about KangarooTwelve][23] at the IRTF Crypto Forum Research Group (CFRG) meeting in London. >>
 
@@ -58,7 +72,7 @@ Presentation of Tikz for Cryptographer and the Crypto Stack Exchange Community a
 Daniel J. Bernstein, Stefan Kölbl, Stefan Lucks, Pedro Maat Costa Massolino, Florian Mendel, Kashif Nawaz, Tobias Schneider, Peter Schwabe, François-Xavier Standaert, Yosuke Todo, and Benoît Viguier  
 *Cryptographic Hardware and Embedded Systems – CHES 2017, Lecture Notes in Computer Science, Springer-Verlag*  
 <span style="color:#999;">Gimli, a 384-bit permutation designed to achieve high security with high performance across a broad range of platforms.</span>  
-<a href="https://eprint.iacr.org/2017/630.pdf">[pdf]</a> <a href="files/gimli.bib">[bib]</a> <a href="https://gimli.cr.yp.to">[www]</a> >>
+<a href="https://eprint.iacr.org/2017/630.pdf">[pdf]</a> <a href="files/bib/gimli.bib">[bib]</a> <a href="https://gimli.cr.yp.to">[www]</a> >>
 
 <<`TLK-2017-0720 -` [Toward the correctness of TweetNaCl’s Ed25519 with VST][21] ||
 Presentation of the correctness of the Big Num arithmetic of TweetNaCl at the Student presentation of the Deep Spec Summer School - 2017 >>
@@ -163,4 +177,6 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [30]: https://www.fstar-lang.org/
 [31]: https://www.easycrypt.info
 [32]: files/K12atLondon.pdf
-
+[33]: files/MiniMorus-DS-Lunch-Talk.pdf
+[34]: https://eprint.iacr.org/2018/464.pdf
+[35]: https://eprint.iacr.org/2018/464
