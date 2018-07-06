@@ -3,3 +3,4 @@ ErrorDocument 403 http://benoit.viguier.nl
 ErrorDocument 404 http://benoit.viguier.nl
 RedirectMatch 404 /\.git
 RedirectMatch 404 /pages
+Options -Indexes

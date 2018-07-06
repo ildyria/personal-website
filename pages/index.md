@@ -43,6 +43,9 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2018-0319 -` [KangarooTwelve draft-viguier-kangarootwelve-01][32] ||
+Presentation of a [RFC draft about KangarooTwelve][23] at the IRTF Crypto Forum Research Group (CFRG) meeting in London. >>
+
 <<`TLK-2017-0926 -` [Bookmarks for Cryptographers][18] ||
 Presentation of Tikz for Cryptographer and the Crypto Stack Exchange Community at CHES Rump Session in Taipei - 2017 >>
 
@@ -94,6 +97,13 @@ Configuration of my usual work environment.
 
 ## CHANGELOG {id="CHANGELOG"}
 
+<<`2018 - Jan. -  High Assurance Cryptographic Software Workshop - Zurich` ||
+[Workshop][28] following *Real World Crypto 2018*.  
+How formal specifications can improve the trust in cryptographic softare. >>
+
+<< `2017 - Sep. - Visit of INRIA - Sophia-Antipolis` ||
+An introduction to Jasmin-lang. >>
+
 << `2017 - Oct. - School on Computer-Aided Security Proofs - Aarhus` ||
 [Fall School][29] organised by Bas Spitters about Computer-aided security proofs using [Fstar][30] and [EasyCrypt][31]. >>
 
@@ -103,6 +113,9 @@ Configuration of my usual work environment.
 <<`2017 - Jun. - Summer School  on real-world crypto and privacy - Šibenik` ||
 [Summer School][27] organised by Radboud University, KU Leuven, ETH Zurich &amp; FER Zagreb about
 recent advances in symmetric and assymetric cryptography, privacy and software and hardware security. >>
+
+<< `2017 - Jan. - Visit of Princeton University- Princeton` ||
+A detailed introduction to VST usage. >>
 
 <<`2017 - Jan. -  High Assurance Cryptographic Software Workshop - New-York` ||
 [Workshop][28] following *Real World Crypto 2017*.  
@@ -149,3 +162,5 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [29]: http://cs.au.dk/da/forskningsomraader/logic-and-semantics/courses/
 [30]: https://www.fstar-lang.org/
 [31]: https://www.easycrypt.info
+[32]: files/K12atLondon.pdf
+
