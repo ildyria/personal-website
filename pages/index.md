@@ -53,7 +53,7 @@ Guido Bertoni and Joan Daemen and Michaël Peeters and Gilles Van Assche and Ron
 <a href="https://eprint.iacr.org/2016/770.pdf">[pdf]</a> <a href="https://keccak.team/kangarootwelve.html">[www]</a> >>
 
 <<`PUB-2018-464 -` [Cryptanalysis of MORUS][35] ||
-Tomer Ashur and Maria Eichlseder and Martin M. Lauridsen and Gaëtan Leurent and Brice Minaud and Yann Rotella and Yu Sasaki and Benoît Viguier
+Tomer Ashur and Maria Eichlseder and Martin M. Lauridsen and Gaëtan Leurent and Brice Minaud and Yann Rotella and Yu Sasaki and Benoît Viguier  
 <span style="color:#999;">As our main result, we present a linear correlation in the keystream of full MORUS, which can be used to distinguish its output from random and to recover some plaintext bits in the broadcast setting.</span>  
 <a href="https://eprint.iacr.org/2018/464.pdf">[pdf]</a> >>
 
