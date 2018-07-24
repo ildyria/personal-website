@@ -43,6 +43,9 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2018-0717 -` [KangarooTwelve draft-viguier-kangarootwelve-02][37] ||
+Presentation of a [RFC draft about KangarooTwelve][38] at the IRTF Crypto Forum Research Group (CFRG) meeting in Montreal. >>
+
 <<`TLK-2018-0622 -` [Linear Cryptanalysis of Morus][33] ||
 Presentation of the Linear Cryptanalysis part of our Paper [Cryptanalysis of Morus][34]. >>
 
@@ -180,3 +183,6 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [33]: files/MiniMorus-DS-Lunch-Talk.pdf
 [34]: https://eprint.iacr.org/2018/464.pdf
 [35]: https://eprint.iacr.org/2018/464
+[36]: https://eprint.iacr.org/2016/770
+[37]: files/K12atMontreal.pdf
+[38]: https://tools.ietf.org/html/draft-viguier-kangarootwelve-02
