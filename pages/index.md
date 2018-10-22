@@ -6,7 +6,9 @@
 
 ## SYNOPSIS {id="SYNOPSIS"}
 
-<p>`Benoit Viguier` [--cv] ... [--gh] [--gl] [--mail] [--gpg] [-l]</p>
+<p>`Benoit Viguier` [--cv] ... [--gh] [--gl] [--mail]
+<!-- [--gpg] -->
+ [-l]</p>
 
 ## DESCRIPTION {id="DESCRIPTION"}
 
