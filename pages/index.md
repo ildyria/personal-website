@@ -43,11 +43,14 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2018-1010 -` [Gimli: A Cross-Platform Permutation][40] ||
+Presentation of Gimli at [Advances in permutation-based cryptography][39] in Milan. >>
+
 <<`TLK-2018-0717 -` [KangarooTwelve draft-viguier-kangarootwelve-02][37] ||
 Presentation of a [RFC draft about KangarooTwelve][38] at the IRTF Crypto Forum Research Group (CFRG) meeting in Montreal. >>
 
 <<`TLK-2018-0622 -` [Linear Cryptanalysis of Morus][33] ||
-Presentation of the Linear Cryptanalysis part of our Paper [Cryptanalysis of Morus][34]. >>
+Presentation of the Linear Cryptanalysis part of our paper [Cryptanalysis of Morus][34]. >>
 
 <<`PUB-2016-770 - ` [KangarooTwelve: fast hashing based on Keccak-p][36] ||
 Guido Bertoni and Joan Daemen and Michaël Peeters and Gilles Van Assche and Ronny Van Keer and Benoît Viguier  
@@ -186,3 +189,5 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [36]: https://eprint.iacr.org/2016/770
 [37]: files/K12atMontreal.pdf
 [38]: https://tools.ietf.org/html/draft-viguier-kangarootwelve-02
+[39]: https://permutationbasedcrypto.org/2018/
+[40]: files/Gimli-in-Milan-18-10-10.pdf
