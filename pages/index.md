@@ -32,13 +32,13 @@ student in [Research in Computer Science][8] (MRI).
 			<span class="varx">x</span> &#64; <span class="vary">y</span> .nl</span>
 			<span class="term">benoit</span> <span class="term">viguier</span>
 		</span><br> >>
-!<<`--gpg` || <span style="text-decoration: line-through;">A5B8 21DE 5C56 D288 9823  
+<!-- !<<`--gpg` || <span style="text-decoration: line-through;">A5B8 21DE 5C56 D288 9823  
 8F9F FC0E EBB8 ABD0 A8E6</span> >>
 :<<`-l` | `--location` ||
 		Mercator 1, 03.17  
 		Toernooiveld 212  
 		6525 EC Nijmegen  
-		The Netherlands >>
+		The Netherlands >> -->
 </dl>
 
 ## SEE ALSO {id="SEE-ALSO"}
