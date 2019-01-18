@@ -37,13 +37,16 @@ student in [Research in Computer Science][8] (MRI).
 <!-- !<<`--gpg` || <span style="text-decoration: line-through;">A5B8 21DE 5C56 D288 9823  
 8F9F FC0E EBB8 ABD0 A8E6</span> >> -->
 :<<`-l` | `--location` ||
-		Mercator 1, 03.17  
+		Mercator 1, 03.11b  
 		Toernooiveld 212  
 		6525 EC Nijmegen  
 		The Netherlands >>
 </dl>
 
 ## SEE ALSO {id="SEE-ALSO"}
+
+<<`TLK-2018-1204 -` [Cryptanalysis of MORUS][41] ||
+Presentation of the Linear Cryptanalysis part of [Cryptanalysis of Morus][34] at [ASIACRYPT 2018][44]. >>
 
 <<`TLK-2018-1010 -` [Gimli: A Cross-Platform Permutation][40] ||
 Presentation of Gimli at [Advances in permutation-based cryptography][39] in Milan. >>
@@ -62,6 +65,7 @@ Guido Bertoni and Joan Daemen and Michaël Peeters and Gilles Van Assche and Ron
 
 <<`PUB-2018-464 -` [Cryptanalysis of MORUS][35] ||
 Tomer Ashur and Maria Eichlseder and Martin M. Lauridsen and Gaëtan Leurent and Brice Minaud and Yann Rotella and Yu Sasaki and Benoît Viguier  
+*Advances in Cryptology – ASIACRYPT 2018, Lecture Notes in Computer Science, Springer-Verlag*
 <span style="color:#999;">As our main result, we present a linear correlation in the keystream of full MORUS, which can be used to distinguish its output from random and to recover some plaintext bits in the broadcast setting.</span>  
 <a href="https://eprint.iacr.org/2018/464.pdf">[pdf]</a> >>
 
@@ -96,6 +100,8 @@ Formalization of the Big Num arithmetic of TweetNaCl at ICIS  DS Lunch Talk.>>
 
 ## EXAMPLES {id="EXAMPLES"}
 
+<< [Lychee][43] || Lychee is a free and open-source photo-management tool. >>
+
 << [rutheme for beamer][9] ||
 Ru is a recolorized version (Radboud University colors) of the Metropolis theme by Matthias Vogelgesang.>>
 
@@ -118,6 +124,12 @@ Configuration of my usual work environment.
 <p>None.</p>-->
 
 ## CHANGELOG {id="CHANGELOG"}
+
+<< `2018 - Dec. – 2019 - Jan. - Internship at INRIA - Sophia-Antipolis` ||
+factorizing x86 and adding A64 in Jasmin-lang. >>
+
+<<`2018 - Mar. - Flexible Symmetric Cryptography - Leiden` ||
+[Workshop][42] organised by Christina Boura, Joan Daemen, Stefan Lucks, Bart Mennink, François-Xavier Standaert >>
 
 <<`2018 - Jan. -  High Assurance Cryptographic Software Workshop - Zurich` ||
 [Workshop][28] following *Real World Crypto 2018*.  
@@ -193,3 +205,7 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [38]: https://tools.ietf.org/html/draft-viguier-kangarootwelve-02
 [39]: https://permutationbasedcrypto.org/2018/
 [40]: files/Gimli-in-Milan-18-10-10.pdf
+[41]: files/MiniMorus-Asiacrypt.pdf
+[42]: https://www.lorentzcenter.nl/lc/web/2018/979/info.php3?wsid=979&venue=Oort
+[43]: https://lycheeOrg.github.io
+[44]: https://asiacrypt.iacr.org/2018/
