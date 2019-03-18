@@ -45,6 +45,9 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2019-0318 -` [Verification of TweetNaCl’s Curve25519][45] ||
+Presentation of the verification of TweetNaCl's Curve25519 implemenation at [Journée GT Méthodes Formelles pour la S&eacute;curit&eacute;][46]. >>
+
 <<`TLK-2018-1204 -` [Cryptanalysis of MORUS][41] ||
 Presentation of the Linear Cryptanalysis part of [Cryptanalysis of Morus][34] at [ASIACRYPT 2018][44]. >>
 
@@ -209,3 +212,5 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [42]: https://www.lorentzcenter.nl/lc/web/2018/979/info.php3?wsid=979&venue=Oort
 [43]: https://lycheeOrg.github.io
 [44]: https://asiacrypt.iacr.org/2018/
+[45]: files/Presentation-Verification-TweetNaCl.pdf
+[46]: https://gtmsf19.sciencesconf.org/
