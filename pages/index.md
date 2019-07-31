@@ -46,7 +46,7 @@ student in [Research in Computer Science][8] (MRI).
 ## SEE ALSO {id="SEE-ALSO"}
 
 <<`TLK-2019-0318 -` [Verification of TweetNaCl’s Curve25519][45] ||
-Presentation of the verification of TweetNaCl's Curve25519 implemenation at [Journée GT Méthodes Formelles pour la S&eacute;curit&eacute;][46]. >>
+Presentation of the verification of TweetNaCl's Curve25519 implementation at [Journée GT Méthodes Formelles pour la S&eacute;curit&eacute;][46]. >>
 
 <<`TLK-2018-1204 -` [Cryptanalysis of MORUS][41] ||
 Presentation of the Linear Cryptanalysis part of [Cryptanalysis of Morus][34] at [ASIACRYPT 2018][44]. >>
@@ -127,6 +127,10 @@ Configuration of my usual work environment.
 <p>None.</p>-->
 
 ## CHANGELOG {id="CHANGELOG"}
+
+<<`2019 - Jun. - Summer School  on real-world crypto and privacy - Šibenik` ||
+[Summer School][27] organised by Radboud University, ETH Zurich &amp; FER Zagreb about
+recent advances in symmetric and assymetric cryptography, privacy and software and hardware security. >>
 
 << `2018 - Dec. – 2019 - Jan. - Internship at INRIA - Sophia-Antipolis` ||
 factorizing x86 and adding A64 in Jasmin-lang. >>
@@ -214,3 +218,4 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [44]: https://asiacrypt.iacr.org/2018/
 [45]: files/Presentation-Verification-TweetNaCl.pdf
 [46]: https://gtmsf19.sciencesconf.org/
+[47]: https://summerschool-croatia.cs.ru.nl/2019/
