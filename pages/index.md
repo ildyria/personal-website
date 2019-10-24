@@ -45,6 +45,9 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2019-1025 -` [Advance Use of Git][48] ||
+Brief presentation of branches and other functionalities of Git at ICIS  DS Lunch Talk in Nijmegen. >>
+
 <<`TLK-2019-0318 -` [Verification of TweetNaCl’s Curve25519][45] ||
 Presentation of the verification of TweetNaCl's Curve25519 implementation at [Journée GT Méthodes Formelles pour la S&eacute;curit&eacute;][46]. >>
 
@@ -219,3 +222,4 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [45]: files/Presentation-Verification-TweetNaCl.pdf
 [46]: https://gtmsf19.sciencesconf.org/
 [47]: https://summerschool-croatia.cs.ru.nl/2019/
+[48]: files/Presentation-19-10-25.pdf
