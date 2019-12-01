@@ -45,6 +45,9 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2019-1129 -` [A Coq proof of the correctness of X25519 in TweetNaCl][49] ||
+Presentation of the complete proof of the correctness of X25519 in TweetNaCl at the Crypto Working Group in Utrecht. >>
+
 <<`TLK-2019-1025 -` [Advance Use of Git][48] ||
 Brief presentation of branches and other functionalities of Git at ICIS  DS Lunch Talk in Nijmegen. >>
 
@@ -223,3 +226,4 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [46]: https://gtmsf19.sciencesconf.org/
 [47]: https://summerschool-croatia.cs.ru.nl/2019/
 [48]: files/Presentation-19-10-25.pdf
+[49]: files/coq-verif-tweetnacl-cwg-19-11-29.pdf
