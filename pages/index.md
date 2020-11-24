@@ -46,8 +46,8 @@ student in [Research in Computer Science][8] (MRI).
 ## SEE ALSO {id="SEE-ALSO"}
 
 <<`PUB-2020-0707 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][49] ||
-Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier
-*CONFERENCE ON CRYPTOLOGY AND NETWORK SECURITY - CANS 2020*
+Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier  
+*CONFERENCE ON CRYPTOLOGY AND NETWORK SECURITY - CANS 2020*  
 <span style="color:#999;">we analyzed different strategies for the optimization of several candidates of NIST's lightweight cryptography standardization project on a RISC-V architecture. In particular, we studied the general impact of optimizing symmetric-key algorithms in assembly and in plain C.</span>  
 <a href="https://eprint.iacr.org/2020/836.pdf">[pdf]</a> >>
 
