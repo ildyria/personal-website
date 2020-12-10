@@ -45,7 +45,14 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
-<<`PUB-2020-0707 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][49] ||
+<<`PUB-2020-1209 -` [A Coq proof of the correctness of X25519 in TweetNaCl][51] ||
+Peter Schwabe and Benoit Viguier and Timmy Weerwag and Freek Wiedijk    
+*34th IEEE Computer Security Foundations Symposium - CSF 2021*  
+<span style="color:#999;">We formally prove that the C implementation of the X25519 key-exchange protocol in the TweetNaCl library is correct. We prove both that it correctly implements the protocol from Bernstein’s 2006 paper, as standardized in RFC 7748, as well as the absence of undefined behavior like arithmetic overflows and array out of bounds errors. We also formally prove, based on the work of Bartzia and Strub, that X25519 is mathematically correct, i.e., that it correctly computes scalar multiplication on the elliptic curve Curve25519.<br>
+The proofs are all computer-verified using the Coq theorem prover. To establish the link between C and Coq we use the Verified Software Toolchain (VST).</span>  
+<a href="files/tweetverif.pdf">[pdf]</a> >>
+
+<<`PUB-2020-0707 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][50] ||
 Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier  
 *CONFERENCE ON CRYPTOLOGY AND NETWORK SECURITY - CANS 2020*  
 <span style="color:#999;">we analyzed different strategies for the optimization of several candidates of NIST's lightweight cryptography standardization project on a RISC-V architecture. In particular, we studied the general impact of optimizing symmetric-key algorithms in assembly and in plain C.</span>  
@@ -233,3 +240,5 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [47]: https://summerschool-croatia.cs.ru.nl/2019/
 [48]: files/Presentation-19-10-25.pdf
 [49]: files/coq-verif-tweetnacl-cwg-19-11-29.pdf
+[50]: https://eprint.iacr.org/2020/836.pdf
+[51]: files/tweetverif.pdf
