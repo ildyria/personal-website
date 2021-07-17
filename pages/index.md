@@ -45,12 +45,24 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2021-0624 -` [A Coq proof of the correctness of X25519 in TweetNaCl][53] ||
+Peter Schwabe and Benoît Viguier and Timmy Weerwag and Freek Wiedijk  
+*34th IEEE Computer Security Foundations Symposium - CSF 2021*  
+Presentation of the complete proof of the correctness of X25519 in TweetNaCl at [CSF 2021](https://www.ieee-security.org/TC/CSF2021/).  
+<a href="https://www.youtube.com/watch?v=VzTFtSRbPS8">[YT]</a> >>
+
+<<`TLK-2020-1216 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][52] ||
+Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier  
+*CONFERENCE ON CRYPTOLOGY AND NETWORK SECURITY - CANS 2020*  
+Presentation of the complete proof of the correctness of X25519 in TweetNaCl at the Crypto Working Group in Utrecht.  
+<a href="https://www.youtube.com/watch?v=Kl72F7Xz50E">[YT]</a> >>
+
 <<`PUB-2020-1209 -` [A Coq proof of the correctness of X25519 in TweetNaCl][51] ||
 Peter Schwabe and Benoit Viguier and Timmy Weerwag and Freek Wiedijk    
 *34th IEEE Computer Security Foundations Symposium - CSF 2021*  
 <span style="color:#999;">We formally prove that the C implementation of the X25519 key-exchange protocol in the TweetNaCl library is correct. We prove both that it correctly implements the protocol from Bernstein’s 2006 paper, as standardized in RFC 7748, as well as the absence of undefined behavior like arithmetic overflows and array out of bounds errors. We also formally prove, based on the work of Bartzia and Strub, that X25519 is mathematically correct, i.e., that it correctly computes scalar multiplication on the elliptic curve Curve25519.<br>
 The proofs are all computer-verified using the Coq theorem prover. To establish the link between C and Coq we use the Verified Software Toolchain (VST).</span>  
-<a href="files/tweetverif.pdf">[pdf]</a> >>
+<a href="https://eprint.iacr.org/2021/428.pdf">[pdf]</a> >>
 
 <<`PUB-2020-0707 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][50] ||
 Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier  
@@ -147,6 +159,9 @@ Configuration of my usual work environment.
 
 ## CHANGELOG {id="CHANGELOG"}
 
+<<`2021 - Apr. - ABN AMRO Bank` ||
+Started working >>
+
 <<`2019 - Jun. - Summer School  on real-world crypto and privacy - Šibenik` ||
 [Summer School][27] organised by Radboud University, ETH Zurich &amp; FER Zagreb about
 recent advances in symmetric and assymetric cryptography, privacy and software and hardware security. >>
@@ -242,3 +257,5 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [49]: files/coq-verif-tweetnacl-cwg-19-11-29.pdf
 [50]: https://eprint.iacr.org/2020/836.pdf
 [51]: files/tweetverif.pdf
+[52]: files/presentation-riscv.pdf
+[53]: files/session-10-paper-79-Viguier.pdf
