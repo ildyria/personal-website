@@ -1,23 +1,31 @@
 ## NAME {id="NAME"}
 
 <p class="man-name">
-	`Benoit Viguier` - <span class="man-whatis">PhD Student in Radboud University</span>
+	`Benoit Viguier` &ndash; <span class="man-whatis">PhD in Cryptography & Formal methods</span>
 </p>
 
 ## SYNOPSIS {id="SYNOPSIS"}
 
-<p>`Benoit Viguier` [--cv] ... [--gh] [--gl] [--mail]
+<p>`Benoit Viguier` [--cv] ... [--phd] [--gh] [--mail]
 <!-- [--gpg] -->
  [-l]</p>
 
 ## DESCRIPTION {id="DESCRIPTION"}
 
 <p>
-`Benoit Viguier` is a PhD student at the [Digital Security group][1] and the
+`Benoit Viguier` is a Cryptographer at [ABN AMRO][0] in Amsterdam, The Netherlands.
+</p>
+
+<p>
+Before that he was a PhD student at the [Digital Security group][1] and the
 [Department of Software Science][2] of the Radboud University in Nijmegen,
 working on *tools for formally verifying cryptographic software* under the
 supervision of [Peter Schwabe][3], [Freek Wiedijk][4], [Joan Daemen][5] and
-[Herman Geuvers][6]. Before that, he was an engineering student at the
+[Herman Geuvers][6].
+</p>
+
+<p>
+In 2014-2015, he was an engineering student at the
 [INSA Rennes][7] (National Institute of Applied Science, France) and master
 student in [Research in Computer Science][8] (MRI).
 </p>
@@ -26,7 +34,7 @@ student in [Research in Computer Science][8] (MRI).
 
 <dl>
 !<<`--cv`|| [Curriculum Vitae][13] >>
-!<<`--gl`|| ![logo][14]{class="logo"}[Gitlab][15] at cs.ru.nl >>
+!<<`--phd`|| [Thesis][54] >>
 !<<`--gh`|| ![logo][16]{class="logo"}[GitHub][17] repository. >>
 !<<`--mail`||
 		<span class="lambdaexpr">
@@ -34,16 +42,22 @@ student in [Research in Computer Science][8] (MRI).
 			<span class="varx">x</span> &#64; <span class="vary">y</span> .nl</span>
 			<span class="term">benoit</span> <span class="term">viguier</span>
 		</span><br> >>
-<!-- !<<`--gpg` || <span style="text-decoration: line-through;">A5B8 21DE 5C56 D288 9823  
-8F9F FC0E EBB8 ABD0 A8E6</span> >> -->
 :<<`-l` | `--location` ||
-		Mercator 1, 03.11b  
-		Toernooiveld 212  
-		6525 EC Nijmegen  
+		Zwanenveld 9150  
+		6538 SJ Nijmegen  
 		The Netherlands >>
 </dl>
 
 ## SEE ALSO {id="SEE-ALSO"}
+
+<<`TLK-2021-1213 -` [A Panorama on Classical Cryptography][54] ||
+Benoît Viguier  
+*PhD Defense*  
+<span style="color:#999;">In this thesis we cover a large part of the classical cryptography world: we examine the design of new symmetric primitive; we explore implementation strategies of lightweight schemes; we analyze a new high performance algorithm; we use formal verification to prove the correctness of Elliptic Curve Cryptography implementations; and finally we describe one of the way algorithms are standardized.</span>  
+<a href="files/phd-presentation.pdf">[slides]</a>
+<a href="https://phd-defense.viguier.nl">[www]</a>
+>>
+
 
 <<`TLK-2021-0624 -` [A Coq proof of the correctness of X25519 in TweetNaCl][53] ||
 Peter Schwabe and Benoît Viguier and Timmy Weerwag and Freek Wiedijk  
@@ -136,31 +150,17 @@ Formalization of the Big Num arithmetic of TweetNaCl at ICIS  DS Lunch Talk.>>
 
 << [Lychee][43] || Lychee is a free and open-source photo-management tool. >>
 
-<< [rutheme for beamer][9] ||
-Ru is a recolorized version (Radboud University colors) of the Metropolis theme by Matthias Vogelgesang.>>
-
 << [Dotfiles][10] ||
 Configuration of my usual work environment.  
 <a href="https://github.com/ildyria/dotfiles/blob/master/screenshot/scrot.png?raw=true" style="text-decoration:none;">![screenshot][11]{class="scrot"}</a>
 <a href="https://github.com/ildyria/dotfiles/blob/master/screenshot/scrot2.png?raw=true" style="text-decoration:none;">![screenshot2][12]{class="scrot"}</a> >>
-<!--
-<h2 id="BUGS">BUGS</h2>
-
-<h3 id="Known-Bugs">Known Bugs</h3>
-
-<dl>
-<dt><a href="https://benoit.viguier.nl/files/Presentation-Bookmarks-for-Cryptographers.pdf">Bookmarks for Cryptographers</a>
-</dt>
-<dd>
-<p>Presentation of Tikz for Cryptographer and the Crypto Stack Exchange Community at the Summer School on real-world crypto and privacy in Croatia - 2017</p>
-</dd>
-</dl>
-<p>None.</p>-->
 
 ## CHANGELOG {id="CHANGELOG"}
 
+<<`2021 - Dec. - PhD defense` || Officially a Doctor in Computer Science >>
+
 <<`2021 - Apr. - ABN AMRO Bank` ||
-Started working >>
+Started working at CISO. >>
 
 <<`2019 - Jun. - Summer School  on real-world crypto and privacy - Šibenik` ||
 [Summer School][27] organised by Radboud University, ETH Zurich &amp; FER Zagreb about
@@ -205,7 +205,7 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 
 <!-- copyright and date are added automatically -->
 
-
+[0]: https://www.abnamro.com
 [1]: http://www.ru.nl/ds/
 [2]: http://www.mbsd.cs.ru.nl
 [3]: https://cryptojedi.org/peter/index.shtml
@@ -259,3 +259,4 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [51]: files/tweetverif.pdf
 [52]: files/presentation-riscv.pdf
 [53]: files/session-10-paper-79-Viguier.pdf
+[54]: files/phd-thesis.pdf
