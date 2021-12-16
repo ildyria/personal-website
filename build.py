@@ -26,6 +26,11 @@ def save(fn, z):
 def head():
     z = ''
     z += '<!DOCTYPE html>\n'
+    z += '<meta charset="UTF-8">\n'
+    z += '<meta name="description" content="Benoit Viguier - PhD - Cryptographer - Software Engineer">\n'
+    z += '<meta name="keywords" content="Cryptography - Formal methods">\n'
+    z += '<meta name="author" content="Benoit Viguier">\n'
+    z += '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     z += '<html lang="en">\n'
     z += '	<head>\n'
     z += '		<meta charset="utf-8" />\n'
