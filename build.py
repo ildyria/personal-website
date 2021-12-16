@@ -48,7 +48,7 @@ def man_head():
 
 def man_menu(state):
     z = ''
-    z += '<div class=\'man-navigation\' style=\'display:none\'>\n'
+    z += '<div class=\'man-navigation\'>\n'
     z += state.toc()
     z += '</div>\n'
 

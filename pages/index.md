@@ -53,7 +53,7 @@ student in [Research in Computer Science][8] (MRI).
 <<`TLK-2021-1213 -` [A Panorama on Classical Cryptography][54] ||
 Benoît Viguier  
 *PhD Defense*  
-<span style="color:#999;">In this thesis we cover a large part of the classical cryptography world: we examine the design of new symmetric primitive; we explore implementation strategies of lightweight schemes; we analyze a new high performance algorithm; we use formal verification to prove the correctness of Elliptic Curve Cryptography implementations; and finally we describe one of the way algorithms are standardized.</span>  
+<span class="light-gray">In this thesis we cover a large part of the classical cryptography world: we examine the design of new symmetric primitive; we explore implementation strategies of lightweight schemes; we analyze a new high performance algorithm; we use formal verification to prove the correctness of Elliptic Curve Cryptography implementations; and finally we describe one of the way algorithms are standardized.</span>  
 <a href="files/phd-presentation.pdf">[slides]</a>
 <a href="https://phd-defense.viguier.nl">[www]</a>
 >>
@@ -74,14 +74,14 @@ Presentation of the complete proof of the correctness of X25519 in TweetNaCl at 
 <<`PUB-2020-1209 -` [A Coq proof of the correctness of X25519 in TweetNaCl][51] ||
 Peter Schwabe and Benoit Viguier and Timmy Weerwag and Freek Wiedijk    
 *34th IEEE Computer Security Foundations Symposium - CSF 2021*  
-<span style="color:#999;">We formally prove that the C implementation of the X25519 key-exchange protocol in the TweetNaCl library is correct. We prove both that it correctly implements the protocol from Bernstein’s 2006 paper, as standardized in RFC 7748, as well as the absence of undefined behavior like arithmetic overflows and array out of bounds errors. We also formally prove, based on the work of Bartzia and Strub, that X25519 is mathematically correct, i.e., that it correctly computes scalar multiplication on the elliptic curve Curve25519.<br>
+<span class="light-gray">We formally prove that the C implementation of the X25519 key-exchange protocol in the TweetNaCl library is correct. We prove both that it correctly implements the protocol from Bernstein’s 2006 paper, as standardized in RFC 7748, as well as the absence of undefined behavior like arithmetic overflows and array out of bounds errors. We also formally prove, based on the work of Bartzia and Strub, that X25519 is mathematically correct, i.e., that it correctly computes scalar multiplication on the elliptic curve Curve25519.<br>
 The proofs are all computer-verified using the Coq theorem prover. To establish the link between C and Coq we use the Verified Software Toolchain (VST).</span>  
 <a href="https://eprint.iacr.org/2021/428.pdf">[pdf]</a> >>
 
 <<`PUB-2020-0707 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][50] ||
 Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier  
 *CONFERENCE ON CRYPTOLOGY AND NETWORK SECURITY - CANS 2020*  
-<span style="color:#999;">we analyzed different strategies for the optimization of several candidates of NIST's lightweight cryptography standardization project on a RISC-V architecture. In particular, we studied the general impact of optimizing symmetric-key algorithms in assembly and in plain C.</span>  
+<span class="light-gray">we analyzed different strategies for the optimization of several candidates of NIST's lightweight cryptography standardization project on a RISC-V architecture. In particular, we studied the general impact of optimizing symmetric-key algorithms in assembly and in plain C.</span>  
 <a href="https://eprint.iacr.org/2020/836.pdf">[pdf]</a> >>
 
 <<`TLK-2019-1129 -` [A Coq proof of the correctness of X25519 in TweetNaCl][49] ||
@@ -108,13 +108,13 @@ Presentation of the Linear Cryptanalysis part of our paper [Cryptanalysis of Mor
 <<`PUB-2016-770 - ` [KangarooTwelve: fast hashing based on Keccak-p][36] ||
 Guido Bertoni and Joan Daemen and Michaël Peeters and Gilles Van Assche and Ronny Van Keer and Benoît Viguier  
 *Applied Cryptography and Network Security – ACNS 2018, Lecture Notes in Computer Science, Springer-Verlag*  
-<span style="color:#999;">KangarooTwelve, a fast and secure arbitrary output-length hash function aiming at a higher speed than the FIPS 202's SHA-3 and SHAKE functions.</span>  
+<span class="light-gray">KangarooTwelve, a fast and secure arbitrary output-length hash function aiming at a higher speed than the FIPS 202's SHA-3 and SHAKE functions.</span>  
 <a href="https://eprint.iacr.org/2016/770.pdf">[pdf]</a> <a href="https://keccak.team/kangarootwelve.html">[www]</a> >>
 
 <<`PUB-2018-464 -` [Cryptanalysis of MORUS][35] ||
 Tomer Ashur and Maria Eichlseder and Martin M. Lauridsen and Gaëtan Leurent and Brice Minaud and Yann Rotella and Yu Sasaki and Benoît Viguier  
 *Advances in Cryptology – ASIACRYPT 2018, Lecture Notes in Computer Science, Springer-Verlag*  
-<span style="color:#999;">As our main result, we present a linear correlation in the keystream of full MORUS, which can be used to distinguish its output from random and to recover some plaintext bits in the broadcast setting.</span>  
+<span class="light-gray">As our main result, we present a linear correlation in the keystream of full MORUS, which can be used to distinguish its output from random and to recover some plaintext bits in the broadcast setting.</span>  
 <a href="https://eprint.iacr.org/2018/464.pdf">[pdf]</a> >>
 
 <<`TLK-2018-0319 -` [KangarooTwelve draft-viguier-kangarootwelve-01][32] ||
@@ -131,7 +131,7 @@ Presentation of Tikz for Cryptographer and the Crypto Stack Exchange Community a
 <<`PUB-2017-630 -` [Gimli: A Cross-Platform Permutation][20] ||
 Daniel J. Bernstein, Stefan Kölbl, Stefan Lucks, Pedro Maat Costa Massolino, Florian Mendel, Kashif Nawaz, Tobias Schneider, Peter Schwabe, François-Xavier Standaert, Yosuke Todo, and Benoît Viguier  
 *Cryptographic Hardware and Embedded Systems – CHES 2017, Lecture Notes in Computer Science, Springer-Verlag*  
-<span style="color:#999;">Gimli, a 384-bit permutation designed to achieve high security with high performance across a broad range of platforms.</span>  
+<span class="light-gray">Gimli, a 384-bit permutation designed to achieve high security with high performance across a broad range of platforms.</span>  
 <a href="https://eprint.iacr.org/2017/630.pdf">[pdf]</a> <a href="files/bib/gimli.bib">[bib]</a> <a href="https://gimli.cr.yp.to">[www]</a> >>
 
 <<`TLK-2017-0720 -` [Toward the correctness of TweetNaCl’s Ed25519 with VST][21] ||
@@ -152,8 +152,8 @@ Formalization of the Big Num arithmetic of TweetNaCl at ICIS  DS Lunch Talk.>>
 
 << [Dotfiles][10] ||
 Configuration of my usual work environment.  
-<a href="https://github.com/ildyria/dotfiles/blob/master/screenshot/scrot.png?raw=true" style="text-decoration:none;">![screenshot][11]{class="scrot"}</a>
-<a href="https://github.com/ildyria/dotfiles/blob/master/screenshot/scrot2.png?raw=true" style="text-decoration:none;">![screenshot2][12]{class="scrot"}</a> >>
+<a href="https://github.com/ildyria/dotfiles/blob/master/screenshot/scrot.png?raw=true">![screenshot][11]{class="scrot"}</a>
+<a href="https://github.com/ildyria/dotfiles/blob/master/screenshot/scrot2.png?raw=true">![screenshot2][12]{class="scrot"}</a> >>
 
 ## CHANGELOG {id="CHANGELOG"}
 
@@ -198,7 +198,7 @@ How formal Methods and Fuzzing can improve the trust in cryptographic softare. >
 
 <<`2016 - Internship at STMicroelectronics` ||
 Formal methods in differential and linear trail search : <a href="files/report-insa.pdf">[report]</a> <a href="files/Slides-Soutenance-INSA.pdf">[slides]</a>  
-<span style="color:#999;">With respect to the original version, typos have been corrected and some parts from the Apendix have been placed after the Preface.</span>  
+<span class="light-gray">With respect to the original version, typos have been corrected and some parts from the Apendix have been placed after the Preface.</span>  
 Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduction%20to%20Logic.pdf">[slides]</a> >>
 
 ## COPYRIGHT {id="COPYRIGHT"}
