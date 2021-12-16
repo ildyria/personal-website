@@ -14,9 +14,9 @@
   .mp h2+pre,.mp h3+pre {margin-top:5px}
   .mp img {margin:auto}
   .mp h1.man-title {display:none}
-  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:monospace;font-size:14px;line-height:1.42857142857143}
-  .mp h2 {font-size:16px;line-height:1.25}
-  .mp h1 {font-size:20px;line-height:2}
+  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:monospace;font-size:14pt;line-height:1.42857142857143}
+  .mp h2 {font-size:16pt;line-height:1.25}
+  .mp h1 {font-size:20pt;line-height:2}
   .mp {text-align:justify;background:#fff}
   .mp,.mp code,.mp pre,.mp pre code,.mp tt,.mp kbd,.mp samp {color:#131211}
   .mp h1,.mp h2,.mp h3,.mp h4 {color:#030201}
@@ -45,7 +45,7 @@
 	}
 }
 
-span.code a, span.code a:hover {font-family:monospace;font-size:14px;line-height:1.42857142857143;font-weight:bold;color:#131211;text-decoration: none}
+span.code a, span.code a:hover {font-family:monospace;font-size:14pt;line-height:1.42857142857143;font-weight:bold;color:#131211;text-decoration: none}
 
 .lambdaexpr {color: #666;}
 .lambdaexpr       .lambdaf::before {content: "(";}
