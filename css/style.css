@@ -3,7 +3,7 @@ body#manpage {margin:0}
 .mp {max-width:100ex;padding:0 9ex 1ex 4ex}
 .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
 .mp h2 {margin:10px 0 0 0}
-.mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:8ex}
+.mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:8ex;}
 .mp h3 {margin:0 0 0 4ex}
 .mp dt {margin:0;clear:left}
 .mp dt.flush {float:left;width:8ex}
@@ -39,11 +39,6 @@ ol.man-decor li.tr {text-align:right;float:right}
 .man-navigation a,.man-navigation a:hover,.man-navigation a:link,.man-navigation a:visited {display:block;margin:0;padding:5px 2px 5px 30px;color:#999;text-decoration:none}
 .man-navigation a:hover {color:#111;text-decoration:underline}
 
-@media only screen and (max-width: 1100px) {
-	.man-navigation {
-		display: none;
-	}
-}
 
 span.code a, span.code a:hover {font-family:monospace;font-size:14pt;line-height:1.42857142857143;font-weight:bold;color:#131211;text-decoration: none}
 
@@ -60,7 +55,6 @@ span.code a, span.code a:hover {font-family:monospace;font-size:14pt;line-height
 .lambdaexpr:hover .vary::after {content: "viguier";visibility: visible;}
 .lambdaexpr:hover .term {visibility: hidden;}
 
-
 img.scrot {
   width: 300px;
   float: left;
@@ -70,3 +64,20 @@ img.scrot {
 
 .light-gray {color: #999;}
 a img {text-decoration:none;}
+
+@media screen and (max-width: 180ex) {
+	.man-navigation {
+		display: none;
+	}
+}
+@media screen and (max-width: 100ex) {
+	.mp dt.flush {
+		float:initial;
+		width:initial
+	}
+}
+@media screen and (min-width: 100ex) {
+	.lambdaexpr br {
+		display: none; /* hide the BR tag for wider screens (i.e. disable the line break) */
+	}
+}

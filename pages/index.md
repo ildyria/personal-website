@@ -39,7 +39,7 @@ student in [Research in Computer Science][8] (MRI).
 !<<`--mail`||
 		<span class="lambdaexpr">
 			<span class="lambdaf"><span class="vars">&lambda; x y. </span>
-			<span class="varx">x</span> &#64; <span class="vary">y</span> .nl</span>
+			<span class="varx">x</span> &#64; <span class="vary">y</span> .nl</span><br />
 			<span class="term">benoit</span> <span class="term">viguier</span>
 		</span><br> >>
 :<<`-l` | `--location` ||
