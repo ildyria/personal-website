@@ -1,9 +1,25 @@
 /* style: man */
+@media screen and (max-width: 150ex) {
+	:root {
+		--padding-left: 4ex;
+	}
+}
+@media screen and (min-width: 150ex) {
+	:root {
+		--padding-left: 8ex;
+	}
+}
+:root{
+	--font1: 0.8571rem;
+	--font2: 1rem;
+	--font3: 1.2rem;
+}
+
 body#manpage {margin:0}
-.mp {max-width:100ex;padding:0 9ex 1ex 4ex}
+.mp {max-width:120ex;padding:0 9ex 1ex 4ex}
 .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
 .mp h2 {margin:10px 0 0 0}
-.mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:8ex;}
+.mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:var(--padding-left);}
 .mp h3 {margin:0 0 0 4ex}
 .mp dt {margin:0;clear:left}
 .mp dt.flush {float:left;width:8ex}
@@ -14,9 +30,9 @@ body#manpage {margin:0}
 .mp h2+pre,.mp h3+pre {margin-top:5px}
 .mp img {margin:auto;}
 .mp h1.man-title {display:none}
-.mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:monospace;font-size:14pt;line-height:1.42857142857143}
-.mp h2 {font-size:16pt;line-height:1.25}
-.mp h1 {font-size:20pt;line-height:2}
+.mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:monospace;font-size:var(--font1);line-height:1.42857142857143}
+.mp h2 {font-size:var(--font2);line-height:1.25}
+.mp h1 {font-size:var(--font3);line-height:2}
 .mp {text-align:justify;background:#fff}
 .mp,.mp code,.mp pre,.mp pre code,.mp tt,.mp kbd,.mp samp {color:#131211}
 .mp h1,.mp h2,.mp h3,.mp h4 {color:#030201}
@@ -40,7 +56,7 @@ ol.man-decor li.tr {text-align:right;float:right}
 .man-navigation a:hover {color:#111;text-decoration:underline}
 
 
-span.code a, span.code a:hover {font-family:monospace;font-size:14pt;line-height:1.42857142857143;font-weight:bold;color:#131211;text-decoration: none}
+span.code a, span.code a:hover {font-family:monospace;font-size:var(--font1);line-height:1.42857142857143;font-weight:bold;color:#131211;text-decoration: none}
 
 .lambdaexpr {color: #666;}
 .lambdaexpr       .lambdaf::before {content: "(";}
@@ -68,19 +84,22 @@ img.logo {
 	height: 0.95em; margin-right: 5px;
 }
 
-@media screen and (max-width: 180ex) {
+@media screen and (max-width: 140ex) {
 	.man-navigation {
 		display: none;
 	}
 }
-@media screen and (max-width: 100ex) {
+@media screen and (max-width: 140ex) {
 	.mp dt.flush {
 		float:initial;
 		width:initial
 	}
 }
-@media screen and (min-width: 100ex) {
+@media screen and (min-width: 140ex) {
 	.lambdaexpr br {
 		display: none; /* hide the BR tag for wider screens (i.e. disable the line break) */
+	}
+	.mp {
+		max-width:100ex
 	}
 }
