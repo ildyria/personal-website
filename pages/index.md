@@ -68,7 +68,7 @@ Presentation of the complete proof of the correctness of X25519 in TweetNaCl at 
 <<`TLK-2020-1216 -` [Assembly or Optimized C for Lightweight Cryptography on RISC-V?][52] ||
 Fabio Campos and Lars Jellema and Mauk Lemmen and Lars Müller and Daan Sprenkels and Benoit Viguier  
 *CONFERENCE ON CRYPTOLOGY AND NETWORK SECURITY - CANS 2020*  
-Presentation of the complete proof of the correctness of X25519 in TweetNaCl at the Crypto Working Group in Utrecht.  
+Presentation of the complete proof of the correctness of X25519 in TweetNaCl at [CANS 2020](https://cans2020.at).  
 <a href="https://www.youtube.com/watch?v=Kl72F7Xz50E">[YT]</a> >>
 
 <<`PUB-2020-1209 -` [A Coq proof of the correctness of X25519 in TweetNaCl][51] ||
