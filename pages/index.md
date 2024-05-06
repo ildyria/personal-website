@@ -52,8 +52,8 @@ student in [Research in Computer Science][8] (MRI).
 
 <<`TLK-2024-0506 -` [Real World Cryptography in Practive][55] ||
 Benoît Viguier  
-*Guest speaker &mdash; Applied Cryptography Lecture*  
-<span class="light-gray">We provide an overview of how cryptography is used in enterprise and its challenges. We then describe the solutions developped at ABN AMRO BANK to tackle those.</span>  
+*Guest speaker - Applied Cryptography Lecture - Radboud Universiteit*  
+<span class="light-gray">We provide an overview of how cryptography is used in enterprises and its challenges. We then describe the solutions developed at ABN AMRO BANK to tackle those.</span>  
 <a href="files/Slides-AAB-PKI.pdf">[slides]</a>
 >>
 
