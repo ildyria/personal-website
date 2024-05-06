@@ -50,6 +50,13 @@ student in [Research in Computer Science][8] (MRI).
 
 ## SEE ALSO {id="SEE-ALSO"}
 
+<<`TLK-2024-0506 -` [Real World Cryptography in Practive][55] ||
+Benoît Viguier  
+*Guest speaker &mdash; Applied Cryptography Lecture*  
+<span class="light-gray">We provide an overview of how cryptography is used in enterprise and its challenges. We then describe the solutions developped at ABN AMRO BANK to tackle those.</span>  
+<a href="files/Slides-AAB-PKI.pdf">[slides]</a>
+>>
+
 <<`TLK-2021-1213 -` [A Panorama on Classical Cryptography][54] ||
 Benoît Viguier  
 *PhD Defense*  
@@ -57,7 +64,6 @@ Benoît Viguier
 <a href="files/phd-presentation.pdf">[slides]</a>
 <a href="https://phd-defense.viguier.nl">[www]</a>
 >>
-
 
 <<`TLK-2021-0624 -` [A Coq proof of the correctness of X25519 in TweetNaCl][53] ||
 Peter Schwabe and Benoît Viguier and Timmy Weerwag and Freek Wiedijk  
@@ -260,3 +266,4 @@ Presentation: A brief introduction to Logic <a href="files/A%20brief%20introduct
 [52]: files/presentation-riscv.pdf
 [53]: files/session-10-paper-79-Viguier.pdf
 [54]: files/phd-thesis.pdf
+[55]: files/Slides-AAB-PKI.pdf
