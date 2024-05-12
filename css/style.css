@@ -1,29 +1,42 @@
 /* style: man */
-@media screen and (max-width: 150ex) {
-	:root {
-		--padding-left: 4ex;
-	}
-}
-@media screen and (min-width: 150ex) {
-	:root {
-		--padding-left: 8ex;
-	}
-}
 :root{
 	--font1: 0.8571rem;
 	--font2: 1rem;
 	--font3: 1.2rem;
+	--margin-left: 8ex;
+	--padding-right: 9ex;
+	--padding-left: 4ex;
+	--margin-bottom-h2: 0px;
+	--margin-left-dd: 9ex;
+}
+
+@media screen and (max-width: 150ex) {
+	:root {
+		--margin-left: 4ex;
+		--padding-right: 4ex;
+		--padding-left: 2ex;
+	}
+}
+
+@media screen and (max-width: 60ex) {
+	:root {
+		--margin-left: 2ex;
+		--padding-right: 2ex;
+		--padding-left: 2ex;
+		--margin-bottom-h2: 2ex;
+		--margin-left-dd: 0;
+	}
 }
 
 body#manpage {margin:0}
-.mp {max-width:120ex;padding:0 9ex 1ex 4ex}
+.mp {max-width:120ex;padding:0 var(--padding-right) 1ex var(--padding-left)}
 .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
-.mp h2 {margin:10px 0 0 0}
-.mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:var(--padding-left);}
+.mp h2 {margin:10px 0 var(--margin-bottom-h2) 0}
+.mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:var(--margin-left);}
 .mp h3 {margin:0 0 0 4ex}
 .mp dt {margin:0;clear:left}
 .mp dt.flush {float:left;width:8ex}
-.mp dd {margin:0 0 0 9ex}
+.mp dd {margin:0 0 0 var(--margin-left-dd)}
 .mp h1,.mp h2,.mp h3,.mp h4 {clear:left}
 .mp pre {margin-bottom:20px}
 .mp pre+h2,.mp pre+h3 {margin-top:22px}
@@ -89,12 +102,12 @@ img.logo {
 		display: none;
 	}
 }
-@media screen and (max-width: 140ex) {
+/* @media screen and (max-width: 140ex) {
 	.mp dt.flush {
 		float:initial;
 		width:initial
 	}
-}
+} */
 @media screen and (min-width: 140ex) {
 	.lambdaexpr br {
 		display: none; /* hide the BR tag for wider screens (i.e. disable the line break) */
